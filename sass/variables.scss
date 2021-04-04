@@ -1,0 +1,35 @@
+$pink: #F3D2D5;
+$black: #000000;
+$white: #ffffff;
+$opaque-black: rgba(0, 0, 0, 0.85);
+$gold: #B7935F;
+
+// Fonts
+$light-font: english-grotesque, sans-serif;
+$light-weight: 300;
+$light-style: normal;
+
+$medium-font: english-grotesque, sans-serif;
+$medium-weight: 500;
+$medium-style: normal;
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0px;
+}
+
+.title{
+    text-transform: uppercase;
+    color: $gold;
+    font-size: 21px;
+    font-family: $medium-font;
+    font-weight: $medium-weight;
+    font-style: $medium-style;
+    padding-bottom: 30px;
+}
+
+.details{
+    font-size: 17px;
+    font-family: $light-font;
+    font-weight: $light-weight;
+    font-style: $light-style;
+}
